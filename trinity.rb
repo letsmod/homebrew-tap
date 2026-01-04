@@ -5,21 +5,21 @@
 class Trinity < Formula
   desc "CLI for interacting with LetsMOD agentic services"
   homepage "https://github.com/letsmod/trinity"
-  version "0.1.2"
+  version "0.1.3"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://static.letsmod.com/releases/trinity/0.1.2/trinity_0.1.2_darwin_amd64.tar.gz"
-      sha256 "15b698b0c04c1aa9be907320cf3ff43bde818888c0aa4f0f3441e9ae4638fe97"
+      url "https://static.letsmod.com/releases/trinity/0.1.3/trinity_0.1.3_darwin_amd64.tar.gz"
+      sha256 "98f75dcfde78e60dd1940a5a660f04e6138f2ed1d3c173c4f0a713fdcde08ab4"
 
       def install
         bin.install "trinity"
       end
     end
     if Hardware::CPU.arm?
-      url "https://static.letsmod.com/releases/trinity/0.1.2/trinity_0.1.2_darwin_arm64.tar.gz"
-      sha256 "d7c9e9e12ea1ae1be7647d3d8c126531ef0b8f04728a97006004a86124b2d3c8"
+      url "https://static.letsmod.com/releases/trinity/0.1.3/trinity_0.1.3_darwin_arm64.tar.gz"
+      sha256 "9fc67d95d2d52fd277fe49dfa819524505363bb104989df1270318f8aafedc2d"
 
       def install
         bin.install "trinity"
@@ -29,15 +29,15 @@ class Trinity < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://static.letsmod.com/releases/trinity/0.1.2/trinity_0.1.2_linux_amd64.tar.gz"
-      sha256 "56d8796a3b6c2e23fd85e88c2beb352e442c67bd7ee306b7fac42a8472279faa"
+      url "https://static.letsmod.com/releases/trinity/0.1.3/trinity_0.1.3_linux_amd64.tar.gz"
+      sha256 "2892bb840197129fd35f49a9ebb718776eb14b684e7666b34b2c9845d1d123bc"
       def install
         bin.install "trinity"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://static.letsmod.com/releases/trinity/0.1.2/trinity_0.1.2_linux_arm64.tar.gz"
-      sha256 "7b020124d87996e1163d283e1256a8d746e661e5690e7388ce7fd18c45c301f6"
+      url "https://static.letsmod.com/releases/trinity/0.1.3/trinity_0.1.3_linux_arm64.tar.gz"
+      sha256 "d354b9ef07b2a680c0a945bfda0cb4b6f5cc61f8ca18d26542853a9d3041960b"
       def install
         bin.install "trinity"
       end
