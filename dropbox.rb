@@ -5,27 +5,27 @@ class Dropbox < Formula
   desc "Syncs work orders and files between S3 and local storage"
   homepage "https://github.com/letsmod/dropbox"
   license "Proprietary"
-  version "0.1.0"
+  version "1.0.0"
 
   on_macos do
     on_arm do
-      url "https://static.letsmod.com/releases/dropbox/0.1.0/dropbox_0.1.0_darwin_arm64.tar.gz"
-      sha256 "68be49abf0520487491fe229451053c88b01f7101074c83e0b744dfb098e7b3d"
+      url "https://static.letsmod.com/releases/dropbox/1.0.0/dropbox_1.0.0_darwin_arm64.tar.gz"
+      sha256 "af355e8a243cba95a51e44fcc3f4a2739f31cbf2d0198e5bce6fb3c90a644447"
     end
     on_intel do
-      url "https://static.letsmod.com/releases/dropbox/0.1.0/dropbox_0.1.0_darwin_amd64.tar.gz"
-      sha256 "db3ffb4512fb7da51ddef21bf0c05aa05052d5cf88a48e9cb1f27bd4159819bd"
+      url "https://static.letsmod.com/releases/dropbox/1.0.0/dropbox_1.0.0_darwin_amd64.tar.gz"
+      sha256 "4e9bfb9b56a38e1a576194b8f4b6c72b0c34d37b902e4918f61442f6ec4fce53"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://static.letsmod.com/releases/dropbox/0.1.0/dropbox_0.1.0_linux_arm64.tar.gz"
-      sha256 "38d168fa186f630e6e0ef645b0cc1eaaf5d75193943186299bbf630fdba1cc1c"
+      url "https://static.letsmod.com/releases/dropbox/1.0.0/dropbox_1.0.0_linux_arm64.tar.gz"
+      sha256 "6d64550782a6df7b5bab11e0e3c87b29e001338d0df103abbddd5d9dcd4b62dd"
     end
     on_intel do
-      url "https://static.letsmod.com/releases/dropbox/0.1.0/dropbox_0.1.0_linux_amd64.tar.gz"
-      sha256 "f9951793fbc8c06abd30b1b97a3b3a4c63a2e978c1f999004870e1da42c9b233"
+      url "https://static.letsmod.com/releases/dropbox/1.0.0/dropbox_1.0.0_linux_amd64.tar.gz"
+      sha256 "c6b7c95f68326bb340481556e94360d4c033a11846ae9973791deff5edc508e0"
     end
   end
 
