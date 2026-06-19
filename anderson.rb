@@ -5,27 +5,27 @@ class Anderson < Formula
   desc "CLI for interacting with LetsMOD agentic services"
   homepage "https://github.com/letsmod/anderson"
   license "Proprietary"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
-      url "https://static.letsmod.com/releases/anderson/0.3.1/anderson_0.3.1_darwin_arm64.tar.gz"
-      sha256 "47eea886a34cc514ee386bf9bf9f0539f2e08acbc6c8a9a325445431fcf7ae8c"
+      url "https://static.letsmod.com/releases/anderson/0.3.2/anderson_0.3.2_darwin_arm64.tar.gz"
+      sha256 "4eb42edb0c7f889beca0abcc20f23c9f112e08b0f8679b6ec5b90ceb70de5a67"
     end
     on_intel do
-      url "https://static.letsmod.com/releases/anderson/0.3.1/anderson_0.3.1_darwin_amd64.tar.gz"
-      sha256 "da2187eae5aa2629f7db3b9339d5c03655a1c996b6a1d27c79b679d3436879a2"
+      url "https://static.letsmod.com/releases/anderson/0.3.2/anderson_0.3.2_darwin_amd64.tar.gz"
+      sha256 "2872b88d720d3713fd52cf1a1db463c04dda977832a675fda13950531d828bff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://static.letsmod.com/releases/anderson/0.3.1/anderson_0.3.1_linux_arm64.tar.gz"
-      sha256 "00541ff2b06b0fbcadf3cc02f7647dfae7e5f1ba8dd5c9e2ed8a475c26b96d39"
+      url "https://static.letsmod.com/releases/anderson/0.3.2/anderson_0.3.2_linux_arm64.tar.gz"
+      sha256 "b7f73f367bba653dbfb4a8098f16c1666335aadaa053d16acbbef56a45cf7082"
     end
     on_intel do
-      url "https://static.letsmod.com/releases/anderson/0.3.1/anderson_0.3.1_linux_amd64.tar.gz"
-      sha256 "584b0ffcb45b5fe5deb02cb6b430ae86ec393e46fbb36b7cbb9d5ed5a3fff5ec"
+      url "https://static.letsmod.com/releases/anderson/0.3.2/anderson_0.3.2_linux_amd64.tar.gz"
+      sha256 "4ee015882eca9adb03862872231f48f0757dd49d052bf17ef53fb21e8a36fc1d"
     end
   end
 
